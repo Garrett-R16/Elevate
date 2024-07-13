@@ -1,8 +1,8 @@
 # X-Step
 
-This repository contains most information pertaining to the development of X-Step, a thrust-vectored model rocket. It is important to note that NOT EVERYTHING is published into this repository. If you hope to create something similar yourself, please seek guidance and take the necessary safety precautions.
+This repository contains most information pertaining to the development of X-Step, a thrust-vectored model rocket. It is important to note that NOT EVERYTHING is published into this repository. If you hope to create something similar yourself, please seek additional guidance and take the necessary safety precautions.
 
-Some images of the rocket:
+**Some images of the rocket:**
 
 ![Rocket Image 1](/Images/Rocket/RocketIm1.png)
 ![Rocket Image 2](/Images/Rocket/RocketIm3.png)
