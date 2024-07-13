@@ -31,7 +31,9 @@ The flight software uses a state system approach. As for TVC, the rocket is cont
 
 ## The TVC Mount
 
-Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the images below.
+Although I have already designed my own gimbaled mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
+
+![Gimbal Image 1](/Images/Gimbal/Gimbal1.png)
 
 ## Testing
 
