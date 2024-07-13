@@ -2,6 +2,10 @@
 
 This repository contains most information pertaining to the development of X-Step, a thrust-vectored model rocket. It is important to note that NOT EVERYTHING is published into this repository. If you hope to create something similar yourself, please seek guidance and take the necessary safety precautions.
 
+Some images of the rocket:
+
+
+
 ## EVA Flight Computer
 
 ### The PCB
@@ -23,7 +27,7 @@ The flight software uses a state system approach. As for TVC, the rocket is cont
 
 ## The TVC Mount
 
-Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the (K-9 TVC Gimbal Gen 2)[https://www.thingiverse.com/thing:4593287]. See the renders below.
+Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the (https://www.thingiverse.com/thing:4593287)[K-9 TVC Gimbal Gen 2]. See the renders below.
 
 ## Testing
 
