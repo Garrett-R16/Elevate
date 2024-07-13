@@ -5,7 +5,7 @@ This repository contains most information pertaining to the development of X-Ste
 Some images of the rocket:
 
 ![Rocket Image 1](/Images/Rocket/RocketIm1.png)
-![Rocket Image 3](/Images/Rocket/RocketIm2.png)
+![Rocket Image 2](/Images/Rocket/RocketIm2.png)
 
 ## EVA Flight Computer
 
@@ -22,13 +22,16 @@ I designed the PCB using Fusion Electronics, and I got it manufactured at JLC PC
 
 The board is still not completely finished, so I will try to update this regularly with how it goes. Below are some renders of how the board looks:
 
+![PCB Image 1](/Images/Avionics/AvPCBR1.png)
+![PCB Image 2](/Images/Avionics/AvPCBR2.png)
+
 ### The flight software
 
 The flight software uses a state system approach. As for TVC, the rocket is controlled using a direct quaternion PID controller. The IMU comes with a built-in filter, so I didn't create one myself. Currently I am choosing not to publish all of the software files to this repository, so currently you will only see the quaternion library I created. I also verified and tuned my controller using simulink (hoping to create a video showcasing it). I would highly reccomend anyone else to attempt to do the same.
 
 ## The TVC Mount
 
-Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the renders below.
+Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the images below.
 
 ## Testing
 
