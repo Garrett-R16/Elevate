@@ -5,7 +5,7 @@ This repository contains most information pertaining to the development of X-Ste
 Some images of the rocket:
 
 ![Rocket Image 1](/Images/Rocket/RocketIm1.png)
-![Rocket Image 2](/Images/Rocket/RocketIm2.png)
+![Rocket Image 2](/Images/Rocket/RocketIm3.png)
 
 ## EVA Flight Computer
 
