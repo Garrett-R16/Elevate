@@ -4,7 +4,8 @@ This repository contains most information pertaining to the development of X-Ste
 
 Some images of the rocket:
 
-
+![Rocket Image 1](/Images/Rocket/RocketIm1.png)
+![Rocket Image 3](/Images/Rocket/RocketIm2.png)
 
 ## EVA Flight Computer
 
@@ -27,7 +28,7 @@ The flight software uses a state system approach. As for TVC, the rocket is cont
 
 ## The TVC Mount
 
-Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the (https://www.thingiverse.com/thing:4593287)[K-9 TVC Gimbal Gen 2]. See the renders below.
+Although I have already designed my own mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the renders below.
 
 ## Testing
 
