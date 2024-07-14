@@ -13,12 +13,12 @@ This repository contains most information pertaining to the development of X-Ste
 
 I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. It's a four layer board, which definitely made routing difficult given that the main IC is a BGA. For anyone thinking of creating their own PCB, I highly recommend staying away from BGAs in the beginning because it will save money and time for both building and designing the board. I'm currently in the process of getting the board assembled. Some features include:
 
-- An Arm Cortex-M7 IC
+- Arm Cortex-M7 IC
 - BNO055 9-axis IMU
 - TE MS5611 BPU
 - 2 Pyro Channels
 - 2 Servo Outputs
-- Outputs for Bluetoogh communication
+- Outputs for Bluetooth communication
 
 The board is still not completely finished, so I will try to update this regularly with how it goes. Below are some renders of how the board looks:
 
