@@ -1,6 +1,6 @@
 # X-Step
 
-This repository contains most information pertaining to the development of X-Step, a thrust-vectored model rocket. It is important to note that NOT EVERYTHING is published into this repository. If you hope to create something similar yourself, please seek additional guidance and take the necessary safety precautions.
+This repository contains most information pertaining to the development of X-Step, a thrust-vectored model rocket. It is important to note that NOT everything is published in this repository. If you hope to create something similar yourself, please seek additional guidance and take the necessary safety precautions.
 
 **Some images of the rocket:**
 
@@ -11,7 +11,7 @@ This repository contains most information pertaining to the development of X-Ste
 
 ### The PCB
 
-I designed the PCB using Fusion Electronics, and I got it manufactured at JLC PCB. I routed it on 4 layers, which was definitely difficult given that the main IC was a BGA. For anyone thinking of creating their own PCB, I would highly reccomend staying away from BGAs in  the beginning because it will save much money and time for both building and designing the board. I'm currently in the process of getting the board assembled. Some features include:
+I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. It's a four layer board, which definitely made routing difficult given that the main IC is a BGA. For anyone thinking of creating their own PCB, I highly recommend staying away from BGAs in the beginning because it will save money and time for both building and designing the board. I'm currently in the process of getting the board assembled. Some features include:
 
 - An Arm Cortex-M7 IC
 - BNO055 9-axis IMU
@@ -27,7 +27,9 @@ The board is still not completely finished, so I will try to update this regular
 
 ### The flight software
 
-The flight software uses a state system approach. As for TVC, the rocket is controlled using a direct quaternion PID controller. The IMU comes with a built-in filter, so I didn't create one myself. Currently I am choosing not to publish all of the software files to this repository, so currently you will only see the quaternion library I created. I also verified and tuned my controller using simulink (hoping to create a video showcasing it). I would highly reccomend anyone else to attempt to do the same.
+The flight software uses a state system approach. When in the "powered flight" mode, the rocket is directly controlled using the IMU quaternion output and PID. I did not create a filter for this sensor data, as there's already one built in. I also verified and tuned my controller using simulink. I would highly reccomend anyone else to attempt to do the same.
+
+Currently, if you take a look at the software files you will only see the quaternion library I created - that's because I'm not going to publish all software files to this repository. At least, not yet.
 
 ## The TVC Mount
 
