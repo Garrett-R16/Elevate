@@ -33,7 +33,7 @@ Currently, if you take a look at the software files you will only see the quater
 
 ## The TVC Mount
 
-Although I have already designed my own gimbaled mount, I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
+Although I have already designed [my own gimbaled mount](https://github.com/Garrett-R16/TVC_Mount), I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
 
 ![Gimbal Image 1](/Images/Gimbal/Gimbal1.png)
 
