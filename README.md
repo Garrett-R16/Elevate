@@ -19,6 +19,7 @@ I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. 
 - 2 Pyro Channels
 - 2 Servo Outputs
 - Outputs for Bluetooth communication
+- 5V 3.5A Buck Converter
 
 The board is still not completely finished, so I will try to update this regularly with how it goes. Below are some renders of how the board looks:
 
