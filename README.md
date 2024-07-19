@@ -42,4 +42,4 @@ Although I have already designed [my own gimbaled mount](https://github.com/Garr
 
 ## Testing
 
-I have yet to test the physical system altogether, but I hope to do so as soon as I get the PCB up and running. However, I have successfully simulated the PID controller using Simulink.
+I have yet to test the physical system altogether, but I hope to do so as soon as I get the PCB up and running. However, I have successfully simulated the PID controller using Simulink. I briefly go over this simulation at the end of the video discussed above.
