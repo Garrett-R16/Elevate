@@ -15,8 +15,7 @@ quaternion::quaternion(const quaternion& q1) {
 }
 
 //roll pitch yaw, got functions from https://stackoverflow.com/questions/5782658/extracting-yaw-from-a-quaternion
-//additional note, the order should be zyx order or yaw, pitch, roll
-//based on this visualization https://quaternions.online/, roll is about the x axis, while pitch is towards x and z, and yaw is x and y
+
 float quaternion::getRoll() {
   return atan2(2.0 * (qd * qc + qa * qb) , 1.0 - 2.0 * (qb * qb + qc * qc));
 }
