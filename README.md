@@ -23,6 +23,8 @@ I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. 
 
 So far, testing has gone well. The board works as intended except for the lack of pull-up resistors on the SDA/SCL lines, which sometimes cause outliers in sensor data. I'm currently developing a workaround and seeing if the board can be modified to fix this.
 
+Below are some renders of the board:
+
 ![PCB Image 1](/Images/Avionics/AvPCBR1.png)
 ![PCB Image 2](/Images/Avionics/AvPCBR2.png)
 
