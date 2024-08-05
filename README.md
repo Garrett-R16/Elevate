@@ -11,7 +11,7 @@ This repository contains most information pertaining to the development of X-Ste
 
 ### The PCB
 
-I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. It's a four layer board, which definitely made routing difficult given that the main IC is a BGA. For anyone thinking of creating their own PCB, I highly recommend staying away from BGAs in the beginning because it will save money and time for both building and designing the board. I'm currently in the process of getting the board assembled. Some features include:
+I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. It's a four layer board, which definitely made routing difficult given that the main IC is a BGA. For anyone thinking of creating their own PCB, I highly recommend staying away from BGAs in the beginning because it will save money and time for both building and designing the board. I'm currently in the process of testing the board. Some features include:
 
 - Arm Cortex-M7 IC
 - BNO055 9-axis IMU
@@ -21,7 +21,7 @@ I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. 
 - Outputs for Bluetooth communication
 - 5V 3.5A Buck Converter
 
-The board is still not completely finished, so I will try to update this regularly with how it goes. Below are some renders of how the board looks:
+So far, testing has gone well. The board works as intended except for the lack of pull-up resistors on the SDA/SCL lines, which sometimes cause outliers in sensor data. I'm currently developing a workaround and seeing if the board can be modified to fix this.
 
 ![PCB Image 1](/Images/Avionics/AvPCBR1.png)
 ![PCB Image 2](/Images/Avionics/AvPCBR2.png)
