@@ -32,7 +32,7 @@ Below are some renders of the board:
 
 The flight software uses a state system approach. When in the "powered flight" mode, the rocket is directly controlled using the IMU quaternion output and PID. This direct-quaternion PID controller is quite similar to the one described by Emil Fresk and George Nikolakopoulos in their paper, ["Full Quaternion Based Attitude Control for a Quadrotor"](https://ieeexplore.ieee.org/document/6669617). For more information on how to learn to do so yourself, please check out my video on ["How to LEARN and USE quaternions"](https://youtu.be/1LDetZWWe8M).
 
-I did not create a filter for this sensor data, as there's already one built in. I also verified and tuned my controller using simulink. I would highly reccomend anyone else to attempt to do the same.
+I did not create a filter for this sensor data, as there's already one built into the IMU. I also verified and tuned my controller using simulink. I would highly reccomend anyone else to attempt to do the same.
 
 Currently, if you take a look at the software files you will only see the quaternion library I created - that's because I'm not going to publish all software files to this repository. At least, not yet.
 
