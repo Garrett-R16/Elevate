@@ -29,7 +29,7 @@ float quaternion::getYaw() {
 }
 
 float quaternion::norm() const {
-  return (float) sqrt(qa*qa+qb*qb+qc*qc+qd*qd);
+  return (float) sqrt(qa * qa + qb * qb + qc * qc + qd * qd);
 }
 
 //free functions for operations
