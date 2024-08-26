@@ -49,10 +49,10 @@ quaternion vector(const quaternion& q) {
 //operators
 
 quaternion operator*(const quaternion& q1, const quaternion& q2) {
-  float new_a = q1.a()*q2.a() - q1.b()*q2.b() - q1.c()*q2.c() - q1.d()*q2.d();
-  float new_b = q1.a()*q2.b() + q1.b()*q2.a() + q1.d()*q2.c() - q1.c()*q2.d();
-  float new_c = q1.a()*q2.c() + q1.c()*q2.a() + q1.b()*q2.d() - q1.d()*q2.b();
-  float new_d = q1.a()*q2.d() + q1.d()*q2.a() + q1.c()*q2.b() - q1.b()*q2.c();
+  float new_a = q1.a() * q2.a() - q1.b() * q2.b() - q1.c() * q2.c() - q1.d() * q2.d();
+  float new_b = q1.a() * q2.b() + q1.b() * q2.a() + q1.d() * q2.c() - q1.c() * q2.d();
+  float new_c = q1.a() * q2.c() + q1.c() * q2.a() + q1.b() * q2.d() - q1.d() * q2.b();
+  float new_d = q1.a() * q2.d() + q1.d() * q2.a() + q1.c() * q2.b() - q1.b() * q2.c();
   
   return quaternion(new_a, new_b, new_c, new_d);;
 }
