@@ -1,4 +1,4 @@
-# X-Step
+# Elevate
 
 This repository contains most information pertaining to the development of X-Step, a thrust-vectored model rocket. It is important to note that NOT everything is published in this repository. If you hope to create something similar yourself, please seek additional guidance and take the necessary safety precautions.
 
