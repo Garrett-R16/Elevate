@@ -30,7 +30,7 @@ Below are some renders of the board:
 
 ### The flight software
 
-The flight software uses a state system approach. When in the "powered flight" mode, the rocket is directly controlled using the IMU quaternion output and PID. This direct-quaternion PID controller is quite similar to the one described by Emil Fresk and George Nikolakopoulos in their paper, ["Full Quaternion Based Attitude Control for a Quadrotor"](https://ieeexplore.ieee.org/document/6669617). For more information on how to learn to do so yourself, please check out my video on ["How to LEARN and USE quaternions"](https://youtu.be/1LDetZWWe8M).
+The flight software uses a state system approach. When in the "powered flight" mode, the rocket is directly controlled using the IMU quaternion output and PID. This direct-quaternion PID controller is quite similar to the one described by Emil Fresk and George Nikolakopoulos in their paper, ["Full Quaternion Based Attitude Control for a Quadrotor"](https://ieeexplore.ieee.org/document/6669617). For more information on how to learn to do so yourself, please check out my video on ["Controlling a Rocket with IMAGINARY Numbers"](https://youtu.be/aRvSZJIa1yA).
 
 I did not create a filter for this sensor data, as there's already one built into the IMU. I also verified and tuned my controller using simulink. I would highly reccomend anyone else to attempt to do the same.
 
@@ -38,10 +38,12 @@ Currently, if you take a look at the software files you will only see the quater
 
 ## The TVC Mount
 
-Although I have already designed [my own gimbaled mount](https://github.com/Garrett-R16/TVC_Mount), I wanted to try out something more simple, so lately I've been experimenting with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
+Although I have already designed [my own gimbaled mount](https://github.com/Garrett-R16/TVC_Mount), I wanted to try out something more simple, so I experimented with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
 
 ![Gimbal Image 1](/Images/Gimbal/Gimbal1.png)
 
+After my first flight, I noticed many issues with the mount, so I decided to redesign it myself. See below for a picture.
+
 ## Testing
 
-I have yet to test the physical system altogether, but I hope to do so as soon as I get the PCB up and running. However, I have successfully simulated the PID controller using Simulink. I briefly go over this simulation at the end of the video discussed above.
+UPDATE: I recently launched the rocket! Twice, actually. For more information, check out [the video I created.](https://youtu.be/ULjHmWELAEA)
