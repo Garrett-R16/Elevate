@@ -30,7 +30,7 @@ Below are some renders of the board:
 
 ### The flight software
 
-The flight software uses a state system approach. When in the "powered flight" mode, the rocket is directly controlled using the IMU quaternion output and PID. This direct-quaternion PID controller is quite similar to the one described by Emil Fresk and George Nikolakopoulos in their paper, ["Full Quaternion Based Attitude Control for a Quadrotor"](https://ieeexplore.ieee.org/document/6669617). For more information on how to learn to do so yourself, please check out my video on ["Controlling a Rocket with IMAGINARY Numbers"](https://youtu.be/aRvSZJIa1yA).
+The flight software uses a state system approach. When in the "powered flight" mode, the rocket is directly controlled using the IMU quaternion output and PID. My initial approach to a direct-quaternion PID controller was quite similar to the one described by Emil Fresk and George Nikolakopoulos in their paper, ["Full Quaternion Based Attitude Control for a Quadrotor"](https://ieeexplore.ieee.org/document/6669617). However, I ran into some cases where the rocket wouldn't take the optimal path because it didn't have roll authority. After researching, I found another method which I detail in my video on ["Controlling a Rocket with IMAGINARY Numbers"](https://youtu.be/aRvSZJIa1yA). In this video, I also compare the two methods side by side using Simulink and a 6DoF Animation block.
 
 I did not create a filter for this sensor data, as there's already one built into the IMU. I also verified and tuned my controller using simulink. I would highly reccomend anyone else to attempt to do the same.
 
@@ -38,11 +38,11 @@ Currently, if you take a look at the software files you will only see the quater
 
 ## The TVC Mount
 
-Although I have already designed [my own gimbaled mount](https://github.com/Garrett-R16/TVC_Mount), I wanted to try out something more simple, so I experimented with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
+Although I have already designed [my own gimbaled mount](https://github.com/Garrett-R16/TVC_Mount), I wanted to try out something more simple, so I first experimented with a modified version of the [K-9 TVC Gimbal Gen 2](https://www.thingiverse.com/thing:4593287). See the image below.
 
 ![Gimbal Image 1](/Images/Gimbal/Gimbal1.png)
 
-After my first flight, I noticed many issues with the mount, so I decided to redesign it myself. See below for a picture.
+After my first flight, I noticed many issues with the mount, so I decided to redesign it myself. I'm currently testing it and have high hopes for the next flight of Elevate. See below for a picture.
 
 ![Gimbal Image 2](/Images/Gimbal/gimbalV2.png)
 
