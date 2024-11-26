@@ -44,6 +44,8 @@ Although I have already designed [my own gimbaled mount](https://github.com/Garr
 
 After my first flight, I noticed many issues with the mount, so I decided to redesign it myself. See below for a picture.
 
+![Gimbal Image 2](/Images/Gimbal/gimbalV2.png)
+
 ## Testing
 
 UPDATE: I recently launched the rocket! Twice, actually. For more information, check out [the video I created.](https://youtu.be/ULjHmWELAEA)
