@@ -21,7 +21,8 @@ I designed the PCB using Fusion Electronics and had it manufactured by JLC PCB. 
 - Outputs for Bluetooth communication
 - 5V 3.5A Buck Converter
 
-So far, testing has gone well. The board works as intended except for the lack of pull-up resistors on the SDA/SCL lines, which sometimes cause outliers in sensor data. If you want to learn more about the EVA, check out [the video I made detailing the design process.](https://www.youtube.com/watch?v=PTA0meSgiaA&t=280s) I'm currently developing a new flight computer in Altium Designer that will fix this and incorporate additional functionality.
+So far, testing has gone well. The board works as intended except for the lack of pull-up resistors on the SDA/SCL lines, which sometimes cause outliers in sensor data. If you want to learn more about the EVA, check out [the video I made detailing the design process.](https://www.youtube.com/watch?v=PTA0meSgiaA&t=280s) I'm currently also developing a new flight computer in Altium Designer that will fix this and incorporate additional functionality.
+
 Below are some renders of the board:
 
 ![PCB Image 1](/Images/Avionics/AvPCBR1.png)
